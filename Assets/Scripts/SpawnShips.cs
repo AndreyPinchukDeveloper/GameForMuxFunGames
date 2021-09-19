@@ -6,6 +6,7 @@ public class SpawnShips : MonoBehaviour
 {
     public Transform SpawnPos;
     public GameObject ship;
+    private float range = 0;
     void Start()
     {
         StartCoroutine(SpawnCD());
@@ -17,8 +18,10 @@ public class SpawnShips : MonoBehaviour
     }
     IEnumerator SpawnCD()
     {
-        yield return new WaitForSeconds(5);
-        Instantiate(ship, SpawnPos.position, Quaternion.identity);
+        Vector3 pos = new Vector3(SpawnPos.position.x + range, SpawnPos.position.y, z: SpawnPos.position.z);
+        range += 0.2f;
+        yield return new WaitForSeconds(1);
+        Instantiate(ship, pos, Quaternion.identity);
         Repeat();
     }
 }
