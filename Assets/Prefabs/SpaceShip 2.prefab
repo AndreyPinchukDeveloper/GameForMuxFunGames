@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3124843777050293445}
   - component: {fileID: 2085860757196716896}
   - component: {fileID: 4257731266380812202}
+  - component: {fileID: 2586559272947285169}
+  - component: {fileID: -6641432233247573111}
   m_Layer: 0
   m_Name: SpaceShip 2
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2586559272947285169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312172311242632831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.327164, y: 4.6313677, z: 1.6589302}
+  m_Center: {x: 0.036832508, y: 1.3156838, z: 0.2286012}
+--- !u!114 &-6641432233247573111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312172311242632831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953087cbce39c5248bcffbab7ec67229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5

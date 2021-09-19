@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7775480866495940209}
   - component: {fileID: 6649517792462195156}
   - component: {fileID: 8909002397150985502}
+  - component: {fileID: -2286400025220006557}
   m_Layer: 0
   m_Name: SpaceShip
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-2286400025220006557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963653584582221003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.327165, y: 4.6313677, z: 1.6589307}
+  m_Center: {x: 0.03683252, y: 1.3156838, z: 0.22860128}
